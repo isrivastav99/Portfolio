@@ -1,5 +1,12 @@
 @import '../../style/App.scss';
 
+@media only screen and (min-width: 768px) {
+  .period{
+    float : right;
+
+  }
+
+}
 // DESKTOP NAVBAR
 .Navbar {
   position: fixed;
