@@ -2,13 +2,9 @@ import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import Masonry from "react-masonry-css";
 //Scss
-import "./portfolio.scss";
+import "./work.scss";
 //Assets
-import Arrow from "../../assets/portfolio/arrow.svg";
-import Keylogger from "../../assets/portfolio/project01/keylogger.jpg";
-import MBoard from "../../assets/portfolio/project02/mboard.jpg";
-import GA from "../../assets/portfolio/project03/GA.jpg";
-import FaceRecog from "../../assets/portfolio/project04/facerecog.jpg";
+
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -139,15 +135,15 @@ class Portfolio extends React.Component {
     //     }
 
     return (
-      <div id="portfolio">
+      <div id="work">
         <div className="wrapper">
-          <Title title="PROJECTS." />
+          <Title title="WORK EXPERIENCE." />
           <Row>
-            <div className="col-md-6">
+            <div class="col-md-6">
               <h2>Word Predictor</h2>
             </div>
-            <div className="col-md-6">
-              <time className="period">December 2019</time>
+            <div class="col-md-6">
+              <time class="period">December 2019</time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
@@ -158,47 +154,61 @@ class Portfolio extends React.Component {
           </div>
 
           <Row>
-            <div className="col-md-6">
-              <h2>Object Path Optimizer</h2>
+            <div class="col-md-6">
+              <h3>Object Path Optimizer</h3>
             </div>
-            <div className="col-md-6">
-              <time className="period">Jan 2020</time>
+            <div class="col-md-6">
+              <time class="period">Jan 2020</time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p className="text-muted">
+            <p class="text-muted">
               Built a path detecter and optimiser using Genetic Algorithm
+            </p>
+          </div>
+          <Row>
+            <div class="col-md-6">
+              <h3>Word Predictor</h3>
+            </div>
+            <div class="col-md-6">
+              <time class="period">December 2019</time>
+            </div>
+          </Row>
+          <div className="col-md-9" style={{ marginBottom: 15 }}>
+            <p class="text-muted">
+              Constructed a word predictor application optimising it with an
+              integrated Genetic Algorithm in Javascript on the P5.js framework
             </p>
           </div>
 
           <Row>
-            <div className="col-md-6 pmargin">
-              <h2>Face-Recognition App</h2>
+            <div class="col-md-6">
+              <h3>Face-Recognition App</h3>
             </div>
-            <div className="col-md-6">
-              <time className="period">June 2019 </time>
+            <div class="col-md-6">
+              <time class="period">June 2019 </time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p className="text-muted">
+            <p class="text-muted">
               A facial recognition app made on ReactJs using the Clarifai API
               with the backend using Node and Express. The app is currently
               deployed on heroku.
+              <a href="https://facerecognition-ishaan.herokuapp.com/">
+                Link to the app:{" "}
+              </a>
             </p>
-            <a href="https://facerecognition-ishaan.herokuapp.com/">
-              Link to the app:{" "}
-            </a>
           </div>
           <Row>
-            <div className="col-md-6 ">
-              <h2>ChatBox</h2>
+            <div class="col-md-6 ">
+              <h3>ChatBox</h3>
             </div>
-            <div className="col-md-6">
-              <time className="period">June-July 2019</time>
+            <div class="col-md-6">
+              <time class="period">June-July 2019</time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p className="text-muted">
+            <p class="text-muted">
               Designed a live message board using Flutter and Firebase which can
               be used as a discussion forum or as a group chat
             </p>
@@ -209,10 +219,6 @@ class Portfolio extends React.Component {
               optimising it with an integrated Genetic Algorithm in Javascript on the P5.js framework</p>
               </div>
             </Col> */}
-
-          <Row className="flex-center padding40">
-            <Button label="HAVE WORK FOR ME?" target={"contact"} />
-          </Row>
         </div>
       </div>
     );

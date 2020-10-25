@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-scroll";
- // SCSS
-import './navbar.scss';
+// SCSS
+import "./navbar.scss";
 // Assets
-import LogoImg from '../../assets/navbar/logo.svg';
-import MobileMenuIcon from '../../assets/navbar/mobile-menu.svg';
+import MobileMenuIcon from "../../assets/navbar/mobile-menu.svg";
 
 const desktopNav = (props) => (
   <nav className={`Navbar ${!props.userIsScrolled ? "extraLargeNavbar" : ""}`}>
@@ -20,22 +19,50 @@ const desktopNav = (props) => (
       <div className="desktop__menu">
         <ul className="flex-s-between">
           <li>
-            <Link activeClass="active-link" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link
+              activeClass="active-link"
+              to="work"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               WORK
             </Link>
           </li>
           <li>
-            <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link
+              activeClass="active-link"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              PROJECTS
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active-link"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               ABOUT
             </Link>
           </li>
           <li>
-            <Link activeClass="active-link" to="blog" spy={true} smooth={true} offset={-70} duration={500}>
-              BLOG
-            </Link>
-          </li>
-          <li>
-            <Link activeClass="active-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link
+              activeClass="active-link"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               CONTACT
             </Link>
           </li>
