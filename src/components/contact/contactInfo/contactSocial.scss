@@ -1,6 +1,4 @@
-@import '../../../style/App.scss';
-
-
+@import "../../../style/App.scss";
 
 .contact__social {
   width: 100%;
@@ -10,17 +8,17 @@
 }
 
 .contact__social:hover {
-  filter: invert(77%) sepia(99%) saturate(652%) hue-rotate(354deg) brightness(98%) contrast(111%);
+  filter: invert(77%) sepia(99%) saturate(652%) hue-rotate(354deg)
+    brightness(98%) contrast(111%);
 }
 
-
-
 @media screen and (max-width: 990px) {
-
-
+  .linkedin {
+    width: 20%;
+  }
   .contact__social {
     text-align: center;
-    width: 100%;
+    max-width: 20%;
     img {
       margin: 0 auto;
     }

@@ -43,19 +43,23 @@ class Contact extends React.Component {
     // YOUR EMAIL.JS TEMPLATE ID
     let TEMPLATE_ID = "template_78g2vop";
 
-    emailjs.send("service_8jaen7o", TEMPLATE_ID, template_params, API_KEY).then(
-      function (response) {
-        if (response.status === 200) {
-          // from_name: this.state.name;
-          self.showSuccessModal();
-        } else {
+    emailjs
+      .send("service_8jaen7o", TEMPLATE_ID, template_params, API_KEY, {
+        from_name: this.state.name,
+      })
+      .then(
+        function (response) {
+          if (response.status === 200) {
+            // from_name: this.state.name;
+            self.showSuccessModal();
+          } else {
+            self.showErrorModal();
+          }
+        },
+        function (error) {
           self.showErrorModal();
         }
-      },
-      function (error) {
-        self.showErrorModal();
-      }
-    );
+      );
   };
 
   // SUCCESS MODAL
