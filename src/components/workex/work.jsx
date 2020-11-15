@@ -155,7 +155,7 @@ class Portfolio extends React.Component {
 
           <Row>
             <div class="col-md-6">
-              <h3>Object Path Optimizer</h3>
+              <h2>Object Path Optimizer</h2>
             </div>
             <div class="col-md-6">
               <time class="period">Jan 2020</time>
@@ -166,53 +166,7 @@ class Portfolio extends React.Component {
               Built a path detecter and optimiser using Genetic Algorithm
             </p>
           </div>
-          <Row>
-            <div class="col-md-6">
-              <h3>Word Predictor</h3>
-            </div>
-            <div class="col-md-6">
-              <time class="period">December 2019</time>
-            </div>
-          </Row>
-          <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p class="text-muted">
-              Constructed a word predictor application optimising it with an
-              integrated Genetic Algorithm in Javascript on the P5.js framework
-            </p>
-          </div>
 
-          <Row>
-            <div class="col-md-6">
-              <h3>Face-Recognition App</h3>
-            </div>
-            <div class="col-md-6">
-              <time class="period">June 2019 </time>
-            </div>
-          </Row>
-          <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p class="text-muted">
-              A facial recognition app made on ReactJs using the Clarifai API
-              with the backend using Node and Express. The app is currently
-              deployed on heroku.
-              <a href="https://facerecognition-ishaan.herokuapp.com/">
-                Link to the app:{" "}
-              </a>
-            </p>
-          </div>
-          <Row>
-            <div class="col-md-6 ">
-              <h3>ChatBox</h3>
-            </div>
-            <div class="col-md-6">
-              <time class="period">June-July 2019</time>
-            </div>
-          </Row>
-          <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p class="text-muted">
-              Designed a live message board using Flutter and Firebase which can
-              be used as a discussion forum or as a group chat
-            </p>
-          </div>
           {/* <Col xs={12} sm={12} md={8} lg={9}>
               <div className="portfolio__nav">
               <p>Constructed a word predictor application 

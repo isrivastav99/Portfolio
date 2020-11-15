@@ -143,6 +143,38 @@ class Portfolio extends React.Component {
         <div className="wrapper">
           <Title title="PROJECTS." />
           <Row>
+            <div className="col-md-6 ">
+              <h2>KeyLogger</h2>
+            </div>
+            <div className="col-md-6">
+              <time className="period">October 2020</time>
+            </div>
+          </Row>
+          <div className="col-md-9" style={{ marginBottom: 15 }}>
+            <p className="text-muted">
+              Designing an advanced key-logger in C++ capable of recording
+              keystrokes and mouse clicks from the host computer. The software
+              maintains an custom encrypted timestamped log file which can be
+              shared with any email id atregular defined intervals
+            </p>
+          </div>
+          <Row>
+            <div className="col-md-6 ">
+              <h2>Live Message Board</h2>
+            </div>
+            <div className="col-md-6">
+              <time className="period">June 2020</time>
+            </div>
+          </Row>
+          <div className="col-md-9" style={{ marginBottom: 15 }}>
+            <p className="text-muted">
+              Designed a live message board using Flutter and Firebase which can
+              be used as a discussion forum or as a group chat. The application
+              was successfully utilised in IntraMun’20 for inter-participant
+              communication between 200 users.
+            </p>
+          </div>
+          <Row>
             <div className="col-md-6">
               <h2>Word Predictor</h2>
             </div>
@@ -167,7 +199,11 @@ class Portfolio extends React.Component {
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
             <p className="text-muted">
-              Built a path detecter and optimiser using Genetic Algorithm
+              Implemented a Path Planning routine in P5.js. The goal for agents
+              was to find the shortest path between two defined position
+              co-ordinates in presence of obstacles. I utilised Genetic
+              Algorithm to optimize individual behaviour while maintaining the
+              required constraints.
             </p>
           </div>
 
@@ -183,26 +219,13 @@ class Portfolio extends React.Component {
             <p className="text-muted">
               A facial recognition app made on ReactJs using the Clarifai API
               with the backend using Node and Express. The app is currently
-              deployed on heroku.
-            </p>
-            <a href="https://facerecognition-ishaan.herokuapp.com/">
-              Link to the app:{" "}
-            </a>
-          </div>
-          <Row>
-            <div className="col-md-6 ">
-              <h2>ChatBox</h2>
-            </div>
-            <div className="col-md-6">
-              <time className="period">June-July 2019</time>
-            </div>
-          </Row>
-          <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p className="text-muted">
-              Designed a live message board using Flutter and Firebase which can
-              be used as a discussion forum or as a group chat
+              deployed on heroku :
+              <a href="https://facerecognition-ishaan.herokuapp.com/">
+                {" https://facerecognition-ishaan.herokuapp.com/"}
+              </a>
             </p>
           </div>
+
           {/* <Col xs={12} sm={12} md={8} lg={9}>
               <div className="portfolio__nav">
               <p>Constructed a word predictor application 
