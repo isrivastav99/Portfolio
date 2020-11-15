@@ -205,7 +205,7 @@ class Portfolio extends React.Component {
               was to find the shortest path between two defined position
               co-ordinates in presence of obstacles. I utilised Genetic
               Algorithm to optimize individual behaviour while maintaining the
-              required constraints.
+              required constraints. The app is deployed at:
               <a href="https://objectpathoptimizer.herokuapp.com/">
                 {" https://objectpathoptimizer.herokuapp.com/"}
               </a>
@@ -223,8 +223,8 @@ class Portfolio extends React.Component {
           <div className="col-md-9" style={{ marginBottom: 15 }}>
             <p className="text-muted">
               A facial recognition app made on ReactJs using the Clarifai API
-              with the backend using Node and Express. The app is currently
-              deployed on heroku :
+              with the backend using Node and Express and PostgreSQL for
+              database. The app is currently deployed on heroku :
               <a href="https://facerecognition-ishaan.herokuapp.com/">
                 {" https://facerecognition-ishaan.herokuapp.com/"}
               </a>
