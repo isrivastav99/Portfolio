@@ -206,6 +206,9 @@ class Portfolio extends React.Component {
               co-ordinates in presence of obstacles. I utilised Genetic
               Algorithm to optimize individual behaviour while maintaining the
               required constraints.
+              <a href="https://objectpathoptimizer.herokuapp.com/">
+                {" https://objectpathoptimizer.herokuapp.com/"}
+              </a>
             </p>
           </div>
 
