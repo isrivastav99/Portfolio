@@ -138,32 +138,43 @@ class Portfolio extends React.Component {
       <div id="work">
         <div className="wrapper">
           <Title title="WORK EXPERIENCE." />
-          <Row>
-            <div class="col-md-6">
-              <h2>Word Predictor</h2>
+          <div className="col-md-6">
+            <h2>SHORTHILLS TECH.</h2>
+          </div>
+          <Row className="lmargin">
+            <div className="col-md-6 ">
+              <h3>SDE & SEO ANALYST INTERN</h3>
             </div>
-            <div class="col-md-6">
-              <time class="period">December 2019</time>
+            <div className="col-md-6">
+              <time className="period">May-June 2020</time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p>
-              Constructed a word predictor application optimising it with an
-              integrated Genetic Algorithm in Javascript on the P5.js framework
+            <p className="font15 ">
+              Worked on bug fixes for the products website
+              www.bestviewsreviews.com. Led the SEO analysis team for both the
+              main website and the blog content leading to a 30% increase in
+              daily users
             </p>
           </div>
-
-          <Row>
-            <div class="col-md-6">
-              <h2>Object Path Optimizer</h2>
+          <div className="col-md-6">
+            <h2>BHARTI FOUNDATION</h2>
+          </div>
+          <Row className="lmargin">
+            <div className="col-md-6">
+              <h3>RESEARCH & DATA ANALYST INTERN</h3>
             </div>
-            <div class="col-md-6">
-              <time class="period">Jan 2020</time>
+            <div className="col-md-6">
+              <time className="period">Dec 2019-Jan 2020</time>
             </div>
           </Row>
           <div className="col-md-9" style={{ marginBottom: 15 }}>
-            <p class="text-muted">
-              Built a path detecter and optimiser using Genetic Algorithm
+            <p className="font15">
+              Successfully Implemented Data Analytics tools like Pandas and
+              NumPy in the field of gender stratification and its impact on
+              employment of future generations. Efficiently analyzed diverse
+              data of over 30,000 students from 200 schools ranging over 30
+              cities across 8 states.
             </p>
           </div>
 

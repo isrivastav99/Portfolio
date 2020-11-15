@@ -142,8 +142,9 @@ class Portfolio extends React.Component {
       <div id="portfolio">
         <div className="wrapper">
           <Title title="PROJECTS." />
-          <Row>
-            <div className="col-md-6 ">
+
+          <Row className="lmargin">
+            <div className="col-md-6 pmargin">
               <h2>KeyLogger</h2>
             </div>
             <div className="col-md-6">
@@ -158,7 +159,8 @@ class Portfolio extends React.Component {
               shared with any email id atregular defined intervals
             </p>
           </div>
-          <Row>
+
+          <Row className="lmargin">
             <div className="col-md-6 ">
               <h2>Live Message Board</h2>
             </div>
@@ -174,7 +176,7 @@ class Portfolio extends React.Component {
               communication between 200 users.
             </p>
           </div>
-          <Row>
+          <Row className="lmargin">
             <div className="col-md-6">
               <h2>Word Predictor</h2>
             </div>
@@ -189,7 +191,7 @@ class Portfolio extends React.Component {
             </p>
           </div>
 
-          <Row>
+          <Row className="lmargin">
             <div className="col-md-6">
               <h2>Object Path Optimizer</h2>
             </div>
@@ -207,7 +209,7 @@ class Portfolio extends React.Component {
             </p>
           </div>
 
-          <Row>
+          <Row className="lmargin">
             <div className="col-md-6 pmargin">
               <h2>Face-Recognition App</h2>
             </div>
@@ -233,9 +235,14 @@ class Portfolio extends React.Component {
               </div>
             </Col> */}
 
-          <Row className="flex-center padding40">
+          <div className="flex-center padding40">
+            <a href="https://github.com/isrivastav99" target="_blank">
+              Github
+            </a>
+          </div>
+          <div className="flex-center">
             <Button label="HAVE WORK FOR ME?" target={"contact"} />
-          </Row>
+          </div>
         </div>
       </div>
     );

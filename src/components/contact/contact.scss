@@ -1,10 +1,8 @@
-@import '../../style/App.scss';
-
+@import "../../style/App.scss";
 
 #contact {
   padding: 60px 0;
 }
-
 .small__button {
   button {
     background-color: $main-color;
@@ -34,7 +32,8 @@ input {
   outline: none;
   margin: 5px 0;
 }
-input:active, input:focus {
+input:active,
+input:focus {
   border: 2px solid $main-color;
 }
 
@@ -42,7 +41,6 @@ input:active, input:focus {
   color: $black-color;
   font-size: 12px;
 }
-
 
 textarea {
   background-color: $light-color;
@@ -56,57 +54,52 @@ textarea {
   margin: 5px 0;
 }
 
-textarea:active, textarea:focus {
+textarea:active,
+textarea:focus {
   border: 2px solid $main-color;
 }
-
 
 ::placeholder {
   color: $black-color;
   font-size: 12px;
 }
 
-  .sending-btn {
-    width: 170px;
-    background-color: $main-color;
-    border: 1px solid $white-color;
-    cursor: pointer;
-    min-height: 52px;
-    padding: 7px 0;
-    margin: 0px;
-    border-radius: 5px;
+.sending-btn {
+  width: 170px;
+  background-color: $main-color;
+  border: 1px solid $white-color;
+  cursor: pointer;
+  min-height: 52px;
+  padding: 7px 0;
+  margin: 0px;
+  border-radius: 5px;
 
-    div {
-      margin: 0 auto;
-      width: 30px;
-      height: 30px;
+  div {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
 
-
-      .sbl-circ {
-        color: $black-color;
-        position: relative;
-        display: inline-block;
-        border: 5px solid;
-        border-radius: 50%;
-        border-top-color: transparent;
-        animation: rotate 1s linear infinite; 
+    .sbl-circ {
+      color: $black-color;
+      position: relative;
+      display: inline-block;
+      border: 5px solid;
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: rotate 1s linear infinite;
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
       }
-      @keyframes rotate {
-        0% {
-          transform: rotate(0); }
-        100% {
-          transform: rotate(360deg); 
-        } 
+      100% {
+        transform: rotate(360deg);
       }
-
     }
   }
+}
 
-
-
-
-
-  @media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) {
   #contact {
     text-align: center;
   }

@@ -1,5 +1,8 @@
-@import '../../style/App.scss';
+@import "../../style/App.scss";
 
+.lmargin {
+  margin: 0.4px;
+}
 #portfolio {
   padding: 20px 0 40px 0;
 
@@ -33,6 +36,8 @@
 
     p {
       padding-right: 10px;
+      text-align: justify;
+      text-justify: inter-word;
     }
 
     .portfolio__filter-menu {
@@ -68,9 +73,10 @@
   padding-left: 30px; /* gutter size */
   background-clip: padding-box;
 }
- 
+
 /* Style your items */
-.mint__gallery > div { /* change div to reference your elements you put in <Masonry> */
+.mint__gallery > div {
+  /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 30px;
 }
 
@@ -86,7 +92,6 @@
       max-width: 200px;
       margin: 30px auto;
       float: none;
-
     }
   }
 }
@@ -99,7 +104,6 @@
           padding: 5px 5px;
           margin-right: 5px;
         }
-
       }
     }
   }

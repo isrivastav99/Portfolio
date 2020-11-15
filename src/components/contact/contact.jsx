@@ -113,7 +113,7 @@ class Contact extends React.Component {
         {modalRender}
         <div className="wrapper">
           <Title title="CONTACT ME" />
-          <p className="font12 center">
+          <p className="font16">
             Want to discuss a business opportunity or just get to know me?
             <br></br>Maybe just debate on who wins the NBA Playoffs this year?
           </p>
@@ -152,11 +152,11 @@ class Contact extends React.Component {
                 {submitButtonRender}
               </form>
             </Col>
-            <Col md={12} lg={6}>
+            {/* <Col md={12} lg={6}>
               <div className="flex-center">
                 <img src={ContactBackground} alt="contact background" />
               </div>
-            </Col>
+            </Col> */}
           </Row>
           <ContactInfo />
           <ContactSocial />
